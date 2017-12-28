@@ -1,18 +1,11 @@
 function forLoop(array) {
-  for(var i = 0; i < array.length;i++) {
+  for(var i = 0; i < 25;i++) {
     if(i === 1) {
-      array[i] = "I am 1 strange loop."
+      array.push("I am 1 strange loop.");
     } else {
-      array[i] = `I am ${i} strange loops.`
+      array.push(`I am ${i} strange loops.`)
     }
   }
-  if(array.length !== array.length+25) {
-    for(var l = array.length; l < array.length+25;l++) {
-      array[l] = `I am ${i} strange loops.`
-    }
-  }
-
-  return array
 }
 
 
