@@ -6,8 +6,8 @@ function forLoop(array) {
       array.push(`I am ${i} strange loops.`)
     }
   }
+  return array
 }
-
 
 
 function whileLoop(n) {
@@ -18,6 +18,7 @@ function whileLoop(n) {
   }
   return 'done'
 }
+
 
 function doWhileLoop(array) {
   function maybeTrue() {
